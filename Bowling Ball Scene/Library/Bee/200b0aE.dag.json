@@ -276,7 +276,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 98,
       "PayloadLength": 54,
-      "PayloadDebugContentSnippet": "/Users/oscarlobban/Desktop/TEC",
+      "PayloadDebugContentSnippet": "/Users/oscarlobban/GitHub/Symb",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.UnityAdditionalFile.txt"
@@ -302,7 +302,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 40324,
       "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/oscarlobban/D",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/oscarlobban/G",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.rsp2"
@@ -2291,7 +2291,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 47945,
       "PayloadLength": 54,
-      "PayloadDebugContentSnippet": "/Users/oscarlobban/Desktop/TEC",
+      "PayloadDebugContentSnippet": "/Users/oscarlobban/GitHub/Symb",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/UnityEditor.UI.UnityAdditionalFile.txt"
@@ -2317,7 +2317,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 85091,
       "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/oscarlobban/D",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/oscarlobban/G",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/UnityEditor.UI.rsp2"
@@ -2858,7 +2858,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 92871,
       "PayloadLength": 54,
-      "PayloadDebugContentSnippet": "/Users/oscarlobban/Desktop/TEC",
+      "PayloadDebugContentSnippet": "/Users/oscarlobban/GitHub/Symb",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.InputSystem.UnityAdditionalFile.txt"
@@ -2884,7 +2884,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 163278,
       "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/oscarlobban/D",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/oscarlobban/G",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.InputSystem.rsp2"
@@ -3742,7 +3742,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 171055,
       "PayloadLength": 54,
-      "PayloadDebugContentSnippet": "/Users/oscarlobban/Desktop/TEC",
+      "PayloadDebugContentSnippet": "/Users/oscarlobban/GitHub/Symb",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.Mathematics.UnityAdditionalFile.txt"
@@ -3768,7 +3768,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 211789,
       "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/oscarlobban/D",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/oscarlobban/G",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.Mathematics.rsp2"
@@ -4326,7 +4326,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 219568,
       "PayloadLength": 54,
-      "PayloadDebugContentSnippet": "/Users/oscarlobban/Desktop/TEC",
+      "PayloadDebugContentSnippet": "/Users/oscarlobban/GitHub/Symb",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.XR.Management.UnityAdditionalFile.txt"
@@ -4352,7 +4352,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 253311,
       "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/oscarlobban/D",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/oscarlobban/G",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.XR.Management.rsp2"
@@ -4828,7 +4828,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 261100,
       "PayloadLength": 54,
-      "PayloadDebugContentSnippet": "/Users/oscarlobban/Desktop/TEC",
+      "PayloadDebugContentSnippet": "/Users/oscarlobban/GitHub/Symb",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/UnityEngine.SpatialTracking.UnityAdditionalFile.txt"
@@ -4854,7 +4854,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 294613,
       "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/oscarlobban/D",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/oscarlobban/G",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/UnityEngine.SpatialTracking.rsp2"
@@ -5326,7 +5326,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 302406,
       "PayloadLength": 54,
-      "PayloadDebugContentSnippet": "/Users/oscarlobban/Desktop/TEC",
+      "PayloadDebugContentSnippet": "/Users/oscarlobban/GitHub/Symb",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.InputSystem.ForUI.UnityAdditionalFile.txt"
@@ -5352,7 +5352,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 335846,
       "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/oscarlobban/D",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/oscarlobban/G",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.InputSystem.ForUI.rsp2"
@@ -5845,7 +5845,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 343714,
       "PayloadLength": 54,
-      "PayloadDebugContentSnippet": "/Users/oscarlobban/Desktop/TEC",
+      "PayloadDebugContentSnippet": "/Users/oscarlobban/GitHub/Symb",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.Mathematics.Editor.UnityAdditionalFile.txt"
@@ -5871,7 +5871,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 378431,
       "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/oscarlobban/D",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/oscarlobban/G",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.Mathematics.Editor.rsp2"
@@ -6372,7 +6372,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 386375,
       "PayloadLength": 54,
-      "PayloadDebugContentSnippet": "/Users/oscarlobban/Desktop/TEC",
+      "PayloadDebugContentSnippet": "/Users/oscarlobban/GitHub/Symb",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.XR.CoreUtils.UnityAdditionalFile.txt"
@@ -6398,7 +6398,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 426866,
       "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/oscarlobban/D",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/oscarlobban/G",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.XR.CoreUtils.rsp2"
@@ -6971,7 +6971,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 434819,
       "PayloadLength": 54,
-      "PayloadDebugContentSnippet": "/Users/oscarlobban/Desktop/TEC",
+      "PayloadDebugContentSnippet": "/Users/oscarlobban/GitHub/Symb",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.XR.Management.Editor.UnityAdditionalFile.txt"
@@ -6997,7 +6997,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 472119,
       "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/oscarlobban/D",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/oscarlobban/G",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.XR.Management.Editor.rsp2"
@@ -7527,7 +7527,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 480064,
       "PayloadLength": 54,
-      "PayloadDebugContentSnippet": "/Users/oscarlobban/Desktop/TEC",
+      "PayloadDebugContentSnippet": "/Users/oscarlobban/GitHub/Symb",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.XR.Oculus.UnityAdditionalFile.txt"
@@ -7553,7 +7553,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 514496,
       "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/oscarlobban/D",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/oscarlobban/G",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.XR.Oculus.rsp2"
@@ -8045,7 +8045,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 522439,
       "PayloadLength": 54,
-      "PayloadDebugContentSnippet": "/Users/oscarlobban/Desktop/TEC",
+      "PayloadDebugContentSnippet": "/Users/oscarlobban/GitHub/Symb",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/UnityEditor.SpatialTracking.UnityAdditionalFile.txt"
@@ -8071,7 +8071,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 557029,
       "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/oscarlobban/D",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/oscarlobban/G",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/UnityEditor.SpatialTracking.rsp2"
@@ -8552,7 +8552,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 565001,
       "PayloadLength": 54,
-      "PayloadDebugContentSnippet": "/Users/oscarlobban/Desktop/TEC",
+      "PayloadDebugContentSnippet": "/Users/oscarlobban/GitHub/Symb",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/UnityEngine.XR.LegacyInputHelpers.UnityAdditionalFile.txt"
@@ -8578,7 +8578,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 598675,
       "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/oscarlobban/D",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/oscarlobban/G",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/UnityEngine.XR.LegacyInputHelpers.rsp2"
@@ -9055,7 +9055,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 606564,
       "PayloadLength": 54,
-      "PayloadDebugContentSnippet": "/Users/oscarlobban/Desktop/TEC",
+      "PayloadDebugContentSnippet": "/Users/oscarlobban/GitHub/Symb",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.XR.CoreUtils.Editor.UnityAdditionalFile.txt"
@@ -9081,7 +9081,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 644689,
       "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/oscarlobban/D",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/oscarlobban/G",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.XR.CoreUtils.Editor.rsp2"
@@ -9619,7 +9619,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 652723,
       "PayloadLength": 54,
-      "PayloadDebugContentSnippet": "/Users/oscarlobban/Desktop/TEC",
+      "PayloadDebugContentSnippet": "/Users/oscarlobban/GitHub/Symb",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.XR.Interaction.Toolkit.UnityAdditionalFile.txt"
@@ -9645,7 +9645,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 719472,
       "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/oscarlobban/D",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/oscarlobban/G",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.XR.Interaction.Toolkit.rsp2"
@@ -10437,7 +10437,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 727773,
       "PayloadLength": 54,
-      "PayloadDebugContentSnippet": "/Users/oscarlobban/Desktop/TEC",
+      "PayloadDebugContentSnippet": "/Users/oscarlobban/GitHub/Symb",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/UnityEditor.XR.LegacyInputHelpers.UnityAdditionalFile.txt"
@@ -10463,7 +10463,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 762919,
       "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/oscarlobban/D",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/oscarlobban/G",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/UnityEditor.XR.LegacyInputHelpers.rsp2"
@@ -10956,7 +10956,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 771071,
       "PayloadLength": 54,
-      "PayloadDebugContentSnippet": "/Users/oscarlobban/Desktop/TEC",
+      "PayloadDebugContentSnippet": "/Users/oscarlobban/GitHub/Symb",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.XR.Interaction.Toolkit.Editor.UnityAdditionalFile.txt"
@@ -10982,7 +10982,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 814830,
       "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/oscarlobban/D",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/oscarlobban/G",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.XR.Interaction.Toolkit.Editor.rsp2"
@@ -11590,7 +11590,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 823131,
       "PayloadLength": 54,
-      "PayloadDebugContentSnippet": "/Users/oscarlobban/Desktop/TEC",
+      "PayloadDebugContentSnippet": "/Users/oscarlobban/GitHub/Symb",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.XR.Oculus.Editor.UnityAdditionalFile.txt"
@@ -11616,7 +11616,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 858009,
       "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/oscarlobban/D",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/oscarlobban/G",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.XR.Oculus.Editor.rsp2"
@@ -12147,7 +12147,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 866199,
       "PayloadLength": 54,
-      "PayloadDebugContentSnippet": "/Users/oscarlobban/Desktop/TEC",
+      "PayloadDebugContentSnippet": "/Users/oscarlobban/GitHub/Symb",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.UnityAdditionalFile.txt"
@@ -12159,7 +12159,7 @@
       "DisplayName": "Writing Assembly-CSharp.rsp",
       "ActionType": "WriteFile",
       "PayloadOffset": 866338,
-      "PayloadLength": 33846,
+      "PayloadLength": 33863,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
@@ -12171,7 +12171,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.rsp2",
       "DisplayName": "Writing Assembly-CSharp.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 900270,
+      "PayloadOffset": 900287,
       "PayloadLength": 0,
       "PayloadDebugContentSnippet": "",
       "Inputs": [],
@@ -12409,7 +12409,7 @@
         "Library/Bee/artifacts/200b0aE.dag/UnityEngine.SpatialTracking.ref.dll",
         "Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll",
         "Library/Bee/artifacts/200b0aE.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll",
-        "Assets/DigitalArtistJZ/Scripts/Rotator.cs",
+        "Assets/CITY PARK ASSETS/DigitalArtistJZ/Scripts/Rotator.cs",
         "/Applications/Unity/Hub/Editor/2022.3.20f1/Unity/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll",
         "/Applications/Unity/Hub/Editor/2022.3.20f1/Unity/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll",
         "Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.rsp"
@@ -12571,7 +12571,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll.mvfrm.rsp",
       "DisplayName": "Writing Assembly-CSharp.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 900365,
+      "PayloadOffset": 900382,
       "PayloadLength": 8703,
       "PayloadDebugContentSnippet": "Library/Bee/artifacts/mvdfrm/U",
       "Inputs": [],
@@ -13375,7 +13375,7 @@
     {
       "Annotation": "BuildPlayerDataGenerator Library/BuildPlayerData/Editor/TypeDb-All.json",
       "DisplayName": "BuildPlayerDataGenerator TypeDb-All",
-      "Action": "\"/Applications/Unity/Hub/Editor/2022.3.20f1/Unity/Unity.app/Contents/Tools/netcorerun/netcorerun\" \"/Applications/Unity/Hub/Editor/2022.3.20f1/Unity/Unity.app/Contents/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"/Users/oscarlobban/Desktop/TECH LAB/Bowling Ball Scene/Library/ScriptAssemblies/Assembly-CSharp.dll\" -a=\"/Users/oscarlobban/Desktop/TECH LAB/Bowling Ball Scene/Library/ScriptAssemblies/Unity.InputSystem.dll\" -a=\"/Users/oscarlobban/Desktop/TECH LAB/Bowling Ball Scene/Library/ScriptAssemblies/Unity.InputSystem.ForUI.dll\" -a=\"/Users/oscarlobban/Desktop/TECH LAB/Bowling Ball Scene/Library/ScriptAssemblies/Unity.Mathematics.dll\" -a=\"/Users/oscarlobban/Desktop/TECH LAB/Bowling Ball Scene/Library/ScriptAssemblies/Unity.XR.CoreUtils.dll\" -a=\"/Users/oscarlobban/Desktop/TECH LAB/Bowling Ball Scene/Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.dll\" -a=\"/Users/oscarlobban/Desktop/TECH LAB/Bowling Ball Scene/Library/ScriptAssemblies/Unity.XR.Management.dll\" -a=\"/Users/oscarlobban/Desktop/TECH LAB/Bowling Ball Scene/Library/ScriptAssemblies/Unity.XR.Oculus.dll\" -a=\"/Users/oscarlobban/Desktop/TECH LAB/Bowling Ball Scene/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll\" -a=\"/Users/oscarlobban/Desktop/TECH LAB/Bowling Ball Scene/Library/ScriptAssemblies/UnityEngine.UI.dll\" -a=\"/Users/oscarlobban/Desktop/TECH LAB/Bowling Ball Scene/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll\" -s=\"/Applications/Unity/Hub/Editor/2022.3.20f1/Unity/Unity.app/Contents/Managed/UnityEngine\" -s=\"/Applications/Unity/Hub/Editor/2022.3.20f1/Unity/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx\" -s=\"/Applications/Unity/Hub/Editor/2022.3.20f1/Unity/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard\" -s=\"/Applications/Unity/Hub/Editor/2022.3.20f1/Unity/Unity.app/Contents/NetStandard/Extensions/2.0.0\" -s=\"/Applications/Unity/Hub/Editor/2022.3.20f1/Unity/Unity.app/Contents/NetStandard/ref/2.1.0\" -s=\"/Users/oscarlobban/Desktop/TECH LAB/Bowling Ball Scene/Library/ScriptAssemblies\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
+      "Action": "\"/Applications/Unity/Hub/Editor/2022.3.20f1/Unity/Unity.app/Contents/Tools/netcorerun/netcorerun\" \"/Applications/Unity/Hub/Editor/2022.3.20f1/Unity/Unity.app/Contents/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"/Users/oscarlobban/GitHub/Symbolore/Bowling Ball Scene/Library/ScriptAssemblies/Assembly-CSharp.dll\" -a=\"/Users/oscarlobban/GitHub/Symbolore/Bowling Ball Scene/Library/ScriptAssemblies/Unity.InputSystem.dll\" -a=\"/Users/oscarlobban/GitHub/Symbolore/Bowling Ball Scene/Library/ScriptAssemblies/Unity.InputSystem.ForUI.dll\" -a=\"/Users/oscarlobban/GitHub/Symbolore/Bowling Ball Scene/Library/ScriptAssemblies/Unity.Mathematics.dll\" -a=\"/Users/oscarlobban/GitHub/Symbolore/Bowling Ball Scene/Library/ScriptAssemblies/Unity.XR.CoreUtils.dll\" -a=\"/Users/oscarlobban/GitHub/Symbolore/Bowling Ball Scene/Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.dll\" -a=\"/Users/oscarlobban/GitHub/Symbolore/Bowling Ball Scene/Library/ScriptAssemblies/Unity.XR.Management.dll\" -a=\"/Users/oscarlobban/GitHub/Symbolore/Bowling Ball Scene/Library/ScriptAssemblies/Unity.XR.Oculus.dll\" -a=\"/Users/oscarlobban/GitHub/Symbolore/Bowling Ball Scene/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll\" -a=\"/Users/oscarlobban/GitHub/Symbolore/Bowling Ball Scene/Library/ScriptAssemblies/UnityEngine.UI.dll\" -a=\"/Users/oscarlobban/GitHub/Symbolore/Bowling Ball Scene/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll\" -s=\"/Applications/Unity/Hub/Editor/2022.3.20f1/Unity/Unity.app/Contents/Managed/UnityEngine\" -s=\"/Applications/Unity/Hub/Editor/2022.3.20f1/Unity/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx\" -s=\"/Applications/Unity/Hub/Editor/2022.3.20f1/Unity/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard\" -s=\"/Applications/Unity/Hub/Editor/2022.3.20f1/Unity/Unity.app/Contents/NetStandard/Extensions/2.0.0\" -s=\"/Applications/Unity/Hub/Editor/2022.3.20f1/Unity/Unity.app/Contents/NetStandard/ref/2.1.0\" -s=\"/Users/oscarlobban/GitHub/Symbolore/Bowling Ball Scene/Library/ScriptAssemblies\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
       "Inputs": [
         "/Applications/Unity/Hub/Editor/2022.3.20f1/Unity/Unity.app/Contents/Tools/netcorerun/netcorerun",
         "/Applications/Unity/Hub/Editor/2022.3.20f1/Unity/Unity.app/Contents/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe",
@@ -13530,7 +13530,7 @@
   ],
   "StatSignatures": [
     {
-      "File": "/Users/oscarlobban/Desktop/TECH LAB/Bowling Ball Scene/getconf"
+      "File": "/Users/oscarlobban/GitHub/Symbolore/Bowling Ball Scene/getconf"
     },
     {
       "File": "Assets/csc.rsp"
@@ -13628,6 +13628,6 @@
   "SharedResources": [],
   "Scanners": [],
   "Identifier": "Library/Bee/200b0aE.dag.json",
-  "PayloadsFile": "/Users/oscarlobban/Desktop/TECH LAB/Bowling Ball Scene/Library/Bee/200b0aE.dag.payloads",
+  "PayloadsFile": "/Users/oscarlobban/GitHub/Symbolore/Bowling Ball Scene/Library/Bee/200b0aE.dag.payloads",
   "RelativePathToRoot": "../.."
 }
