@@ -1,0 +1,513 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.20f1 (61c2feb0970d) revision 6406910'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 16227 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.20f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/Cici/OneDrive/Documents/GitHub/Symbolore/Bowling Ball Scene
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+52587
+Successfully changed project path to: C:/Users/Cici/OneDrive/Documents/GitHub/Symbolore/Bowling Ball Scene
+C:/Users/Cici/OneDrive/Documents/GitHub/Symbolore/Bowling Ball Scene
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [4840] Host "[IP] 10.105.63.38 [Port] 0 [Flags] 2 [Guid] 1828674968 [EditorId] 1828674968 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-I4052BI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [4840] Host "[IP] 10.105.63.38 [Port] 0 [Flags] 2 [Guid] 1828674968 [EditorId] 1828674968 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-I4052BI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 25.41 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 7.55 ms.
+Initialize engine version: 2022.3.20f1 (61c2feb0970d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Cici/OneDrive/Documents/GitHub/Symbolore/Bowling Ball Scene/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 620 (ID=0x5917)
+    Vendor:   Intel
+    VRAM:     8113 MB
+    Driver:   31.0.101.2111
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56516
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.058307 seconds.
+- Loaded All Assemblies, in  2.210 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 1344 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.275 seconds
+Domain Reload Profiling: 5475ms
+	BeginReloadAssembly (610ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (4ms)
+	RebuildCommonClasses (229ms)
+	RebuildNativeTypeToScriptingClass (63ms)
+	initialDomainReloadingComplete (336ms)
+	LoadAllAssembliesAndSetupDomain (960ms)
+		LoadAssemblies (600ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (950ms)
+			TypeCache.Refresh (941ms)
+				TypeCache.ScanAssembly (858ms)
+			ScanForSourceGeneratedMonoScriptInfo (3ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (3277ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2927ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2075ms)
+			SetLoadedEditorAssemblies (17ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (11ms)
+			ProcessInitializeOnLoadAttributes (612ms)
+			ProcessInitializeOnLoadMethodAttributes (212ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.686 seconds
+Refreshing native plugins compatible for Editor in 12.39 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@4.1.2\Runtime\OculusLoader.cs:287 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x00084] in .\Library\PackageCache\com.unity.xr.oculus@4.1.2\Runtime\OculusLoader.cs:272 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <dc753a1061284f8e971ee88ee4826eee>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <dc753a1061284f8e971ee88ee4826eee>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <dc753a1061284f8e971ee88ee4826eee>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <5d5ebefe97114215928ac1d9cd096522>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  3.237 seconds
+Domain Reload Profiling: 4907ms
+	BeginReloadAssembly (799ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (38ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (89ms)
+	RebuildCommonClasses (237ms)
+	RebuildNativeTypeToScriptingClass (59ms)
+	initialDomainReloadingComplete (179ms)
+	LoadAllAssembliesAndSetupDomain (393ms)
+		LoadAssemblies (582ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (314ms)
+			TypeCache.Refresh (253ms)
+				TypeCache.ScanAssembly (209ms)
+			ScanForSourceGeneratedMonoScriptInfo (31ms)
+			ResolveRequiredComponents (27ms)
+	FinalizeReload (3241ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2194ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (169ms)
+			SetLoadedEditorAssemblies (20ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (369ms)
+			ProcessInitializeOnLoadAttributes (1391ms)
+			ProcessInitializeOnLoadMethodAttributes (184ms)
+			AfterProcessingInitializeOnLoad (61ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (37ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.31 seconds
+Refreshing native plugins compatible for Editor in 10.86 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.17 ms.
+Unloading 1420 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (50.7 KB). Loaded Objects now: 1909.
+Memory consumption went from 99.3 MB to 99.3 MB.
+Total: 9.459700 ms (FindLiveObjects: 0.494600 ms CreateObjectMapping: 0.266700 ms MarkObjects: 8.532400 ms  DeleteObjects: 0.162700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 243468.465156 seconds.
+  path: Assets/CITY PARK ASSETS/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_SUV_color03_separate.prefab
+  artifactKey: Guid(f0ffa104f4ba20b40a0421d7c2b5f098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CITY PARK ASSETS/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_SUV_color03_separate.prefab using Guid(f0ffa104f4ba20b40a0421d7c2b5f098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e19986a800d0bbf396d1dd999f7ec40') in 0.343339 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/CITY PARK ASSETS/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Static Wheels/Vehicle_Truck_color01.prefab
+  artifactKey: Guid(cffe1734bc43bcb47b6433ebca05c04c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CITY PARK ASSETS/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Static Wheels/Vehicle_Truck_color01.prefab using Guid(cffe1734bc43bcb47b6433ebca05c04c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97d50a579ad3ce81ecc58f6547f3f4ba') in 0.038081 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/CITY PARK ASSETS/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Static Wheels/Vehicle_Pick up Truck_color02.prefab
+  artifactKey: Guid(81c050d9e127fdd45af1f6b8da476b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CITY PARK ASSETS/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Static Wheels/Vehicle_Pick up Truck_color02.prefab using Guid(81c050d9e127fdd45af1f6b8da476b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ece1902a040030035196d955444093b') in 0.081894 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/CITY PARK ASSETS/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_Truck_color03_separate.prefab
+  artifactKey: Guid(1508f459923b7df4889f466e17864ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CITY PARK ASSETS/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_Truck_color03_separate.prefab using Guid(1508f459923b7df4889f466e17864ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0262d14a82fe825f4130115e8139f0a') in 0.076388 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 41
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/CITY PARK ASSETS/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_Truck_color01_separate.prefab
+  artifactKey: Guid(636cb627739652c418fcc4f683a138b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CITY PARK ASSETS/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_Truck_color01_separate.prefab using Guid(636cb627739652c418fcc4f683a138b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e74206957ce3185cc0741bf46a51d515') in 0.098618 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 41
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/CITY PARK ASSETS/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Static Wheels/Vehicle_Container_color03.prefab
+  artifactKey: Guid(d20839e362efa3d4baa3d2ce1b4f2df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CITY PARK ASSETS/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Static Wheels/Vehicle_Container_color03.prefab using Guid(d20839e362efa3d4baa3d2ce1b4f2df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac1860f459d584b5dd7a5aea2a470c4c') in 0.055885 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/CITY PARK ASSETS/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_Car_color03_separate.prefab
+  artifactKey: Guid(11a57a102cdb5e642899ceab079f1938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CITY PARK ASSETS/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_Car_color03_separate.prefab using Guid(11a57a102cdb5e642899ceab079f1938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dbb88f065914f7c5b6403e7b1cc12f3') in 0.060595 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/CITY PARK ASSETS/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Static Wheels/Vehicle_Truck_color03.prefab
+  artifactKey: Guid(993432d7809c9bf489a5a96006618fef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CITY PARK ASSETS/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Static Wheels/Vehicle_Truck_color03.prefab using Guid(993432d7809c9bf489a5a96006618fef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96cd92e253805110dbc6e53537fc7687') in 0.067736 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/CITY PARK ASSETS/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_Truck_color02_separate.prefab
+  artifactKey: Guid(f119644f5530c1044aa946bb6b18bb13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CITY PARK ASSETS/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_Truck_color02_separate.prefab using Guid(f119644f5530c1044aa946bb6b18bb13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeb30f91500c32cb9208f8e5d79075e3') in 0.102442 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 41
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/CITY PARK ASSETS/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Static Wheels/Vehicle_SUV_color03.prefab
+  artifactKey: Guid(00d77ce56096de34eb6645947a0f8925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CITY PARK ASSETS/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Static Wheels/Vehicle_SUV_color03.prefab using Guid(00d77ce56096de34eb6645947a0f8925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89891771b8251c1ad436dc537703d961') in 0.052075 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/CITY PARK ASSETS/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_Bus_color02_separate.prefab
+  artifactKey: Guid(3cfde9a41ff096140a1bfec6f262d0f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CITY PARK ASSETS/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_Bus_color02_separate.prefab using Guid(3cfde9a41ff096140a1bfec6f262d0f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c944dce811dd55726e95231d03d8bb93') in 0.054077 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/CITY PARK ASSETS/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Static Wheels/Vehicle_Car_color02.prefab
+  artifactKey: Guid(81835658bbd378143a0f525b8552f557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CITY PARK ASSETS/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Static Wheels/Vehicle_Car_color02.prefab using Guid(81835658bbd378143a0f525b8552f557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f42c28dc813c882ace4d51ff89460940') in 0.070311 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/CITY PARK ASSETS/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_Container_color03_separate.prefab
+  artifactKey: Guid(a8a6e2e210e71bc4ab5ba85122928ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CITY PARK ASSETS/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_Container_color03_separate.prefab using Guid(a8a6e2e210e71bc4ab5ba85122928ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '453f99b497a357dce5f3828d4cc21fb5') in 0.075652 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 41
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/CITY PARK ASSETS/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_SUV_color01_separate.prefab
+  artifactKey: Guid(1dabf884aa0716149a1bc775f0b620d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CITY PARK ASSETS/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_SUV_color01_separate.prefab using Guid(1dabf884aa0716149a1bc775f0b620d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '225f891cb6692ebbed323debf90c727e') in 0.080373 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/CITY PARK ASSETS/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Static Wheels/Vehicle_Truck_color02.prefab
+  artifactKey: Guid(e218686c5655fad46a02ebfb004972ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CITY PARK ASSETS/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Static Wheels/Vehicle_Truck_color02.prefab using Guid(e218686c5655fad46a02ebfb004972ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a59ea6cb81867bd8bd78dc1fe564404a') in 0.061046 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/CITY PARK ASSETS/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_Car_color01_separate.prefab
+  artifactKey: Guid(d267fbb9e36c6e4458c9a8756d725a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CITY PARK ASSETS/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_Car_color01_separate.prefab using Guid(d267fbb9e36c6e4458c9a8756d725a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21a79e64a9f1f0f57abe0ff20256735c') in 0.071121 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/CITY PARK ASSETS/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Static Wheels/Vehicle_Car_color03.prefab
+  artifactKey: Guid(c98da428142c39c42bb62c454958cd1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CITY PARK ASSETS/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Static Wheels/Vehicle_Car_color03.prefab using Guid(c98da428142c39c42bb62c454958cd1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5f5c9fba870f4ddaa2035e42e328200') in 0.064844 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/CITY PARK ASSETS/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Static Wheels/Vehicle_Bus_color03.prefab
+  artifactKey: Guid(f269a0a343ed94c4e908a388c940ea06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CITY PARK ASSETS/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Static Wheels/Vehicle_Bus_color03.prefab using Guid(f269a0a343ed94c4e908a388c940ea06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1be11c8f788385ed506c3ac660255c4') in 0.062052 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/CITY PARK ASSETS/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_SUV_color02_separate.prefab
+  artifactKey: Guid(a7cd9ad30e9d4c146986aa1e6694b9e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CITY PARK ASSETS/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_SUV_color02_separate.prefab using Guid(a7cd9ad30e9d4c146986aa1e6694b9e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4762c675281f3a51ac6a4ff11c439a6f') in 0.057187 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/CITY PARK ASSETS/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_Pick up Truck_color02_separate.prefab
+  artifactKey: Guid(b1969db97c2d8604ba4bfe3000a13858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CITY PARK ASSETS/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_Pick up Truck_color02_separate.prefab using Guid(b1969db97c2d8604ba4bfe3000a13858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff9e16db6d1e6fcde2efcd4803261d54') in 0.074932 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/CITY PARK ASSETS/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_Taxi_separate.prefab
+  artifactKey: Guid(fba5e236738a7c940b3a8d031c307794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CITY PARK ASSETS/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_Taxi_separate.prefab using Guid(fba5e236738a7c940b3a8d031c307794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02fcbbbb1dbc5a96fb092d4596833308') in 0.060361 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 909.350713 seconds.
+  path: Assets/CITY PARK ASSETS/SimplePoly City - Low Poly Assets/Models/Building_Bakery.fbx
+  artifactKey: Guid(ea9803764c3c1e74b83f6dda1cfa0885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CITY PARK ASSETS/SimplePoly City - Low Poly Assets/Models/Building_Bakery.fbx using Guid(ea9803764c3c1e74b83f6dda1cfa0885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '042e604aa2a62ca28c9ee7f431aa3408') in 0.286012 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/CITY PARK ASSETS/SimplePoly City - Low Poly Assets/Models/Building_Music Store.fbx
+  artifactKey: Guid(e6c7be1b4691ca441abe64159118907b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CITY PARK ASSETS/SimplePoly City - Low Poly Assets/Models/Building_Music Store.fbx using Guid(e6c7be1b4691ca441abe64159118907b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff3b04af99de8ea6a7c9faf699c32950') in 0.095871 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/CITY PARK ASSETS/SimplePoly City - Low Poly Assets/Models/Natures_Big Tree.fbx
+  artifactKey: Guid(b8b93a0c79396d54ea72d1eecb7bf246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CITY PARK ASSETS/SimplePoly City - Low Poly Assets/Models/Natures_Big Tree.fbx using Guid(b8b93a0c79396d54ea72d1eecb7bf246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64c8ee41d43ec7a042f102cb9942ba30') in 0.074647 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/CITY PARK ASSETS/SimplePoly City - Low Poly Assets/Models/Building_Fruits  Shop.fbx
+  artifactKey: Guid(0f5d2e6533e3fb44fbd094c173ba3f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CITY PARK ASSETS/SimplePoly City - Low Poly Assets/Models/Building_Fruits  Shop.fbx using Guid(0f5d2e6533e3fb44fbd094c173ba3f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bd507407a643dae5730f73217d74960') in 0.099743 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/CITY PARK ASSETS/SimplePoly City - Low Poly Assets/Models/Building_Gift Shop.fbx
+  artifactKey: Guid(4a3db8768f20288458711d0f979974bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CITY PARK ASSETS/SimplePoly City - Low Poly Assets/Models/Building_Gift Shop.fbx using Guid(4a3db8768f20288458711d0f979974bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf5e119bcf4adab3aa4abcc08f36b676') in 0.082970 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/CITY PARK ASSETS/SimplePoly City - Low Poly Assets/Models/Natures_Bush_01.fbx
+  artifactKey: Guid(736724502c2975348b2f19e5e99e1ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CITY PARK ASSETS/SimplePoly City - Low Poly Assets/Models/Natures_Bush_01.fbx using Guid(736724502c2975348b2f19e5e99e1ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '281526b1895868deb255cb011f6de7d5') in 0.079380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/CITY PARK ASSETS/SimplePoly City - Low Poly Assets/Models/Building_Books Shop.fbx
+  artifactKey: Guid(2c2dcc3c02224de46b4813f3110dca1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CITY PARK ASSETS/SimplePoly City - Low Poly Assets/Models/Building_Books Shop.fbx using Guid(2c2dcc3c02224de46b4813f3110dca1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff3868e97e9b40acd0f0613e1f65d35a') in 0.080444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/CITY PARK ASSETS/SimplePoly City - Low Poly Assets/Models/Building_House_02_color01.fbx
+  artifactKey: Guid(8cb6d953267a0884288df6a274f09c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CITY PARK ASSETS/SimplePoly City - Low Poly Assets/Models/Building_House_02_color01.fbx using Guid(8cb6d953267a0884288df6a274f09c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ccb5017ccced26ac3f018aa9d46c18c') in 0.078794 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000643 seconds.
+  path: Assets/CITY PARK ASSETS/SimplePoly City - Low Poly Assets/Models/Building_Pizza.fbx
+  artifactKey: Guid(d015ce89362e9504890f33e36733d925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CITY PARK ASSETS/SimplePoly City - Low Poly Assets/Models/Building_Pizza.fbx using Guid(d015ce89362e9504890f33e36733d925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdbc49ca1664a023c49274dc2507935f') in 0.115438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/CITY PARK ASSETS/SimplePoly City - Low Poly Assets/Models/Building_Fast Food.fbx
+  artifactKey: Guid(4ddf9dbec6534a14a9612193ee06f4d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CITY PARK ASSETS/SimplePoly City - Low Poly Assets/Models/Building_Fast Food.fbx using Guid(4ddf9dbec6534a14a9612193ee06f4d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7c9857f1397aeba33b72bc03c4eea32') in 0.078404 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/CITY PARK ASSETS/SimplePoly City - Low Poly Assets/Models/Building_Restaurant.fbx
+  artifactKey: Guid(efc62b24c745a1f469c0d1453dfb41e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CITY PARK ASSETS/SimplePoly City - Low Poly Assets/Models/Building_Restaurant.fbx using Guid(efc62b24c745a1f469c0d1453dfb41e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06e994df93e08bfa8757fc94dbe83f1f') in 0.091474 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/CITY PARK ASSETS/SimplePoly City - Low Poly Assets/Models/Building_Gas Station.fbx
+  artifactKey: Guid(25449c1a4c4ca004ead70b6c0889695b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CITY PARK ASSETS/SimplePoly City - Low Poly Assets/Models/Building_Gas Station.fbx using Guid(25449c1a4c4ca004ead70b6c0889695b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e298468168133c0ad059dbc1b9cfb100') in 0.077856 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000496 seconds.
+  path: Assets/CITY PARK ASSETS/SimplePoly City - Low Poly Assets/Models/Building_Factory.fbx
+  artifactKey: Guid(932be02d2912c394786d8ec1d2007f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CITY PARK ASSETS/SimplePoly City - Low Poly Assets/Models/Building_Factory.fbx using Guid(932be02d2912c394786d8ec1d2007f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcade11c9a597ead54c2ef633e77de4d') in 0.085229 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 5976.751551 seconds.
+  path: Assets/Prefabs/HandPrefab.prefab
+  artifactKey: Guid(4feb5dbe0c4d94e3798651ed450323e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HandPrefab.prefab using Guid(4feb5dbe0c4d94e3798651ed450323e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7493058c44265d8e56f78d0fa8e225a3') in 0.179435 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 22.778876 seconds.
+  path: Assets/Materials/BOX.mat
+  artifactKey: Guid(abeeeba8cd02f40a884e6ed290a61967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/BOX.mat using Guid(abeeeba8cd02f40a884e6ed290a61967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fadd281e2b28286d64b20fbbe1fef761') in 0.239012 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Materials/New Material 1.mat
+  artifactKey: Guid(45d7a87967b7d49f5b392e80417bd965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Material 1.mat using Guid(45d7a87967b7d49f5b392e80417bd965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc646111022f5dedfc0852104e945db8') in 0.034363 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Materials/New Material.mat
+  artifactKey: Guid(4bb6464644c7d4acba9aecfbfc9e2a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Material.mat using Guid(4bb6464644c7d4acba9aecfbfc9e2a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0fc2d88c7cb5070e5636629ba0a705f') in 0.033328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
