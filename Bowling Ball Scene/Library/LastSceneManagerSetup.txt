@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Project 1.unity
+- path: Assets/scenes/cianna.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
