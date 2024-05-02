@@ -22,7 +22,7 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-52848
+53268
 Successfully changed project path to: /Users/oscarlobban/GitHub/Symbolore/Bowling Ball Scene
 /Users/oscarlobban/GitHub/Symbolore/Bowling Ball Scene
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -56,13 +56,13 @@ Successfully changed project path to: /Users/oscarlobban/GitHub/Symbolore/Bowlin
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [7939215360] Host "[IP] 10.105.62.35 [Port] 0 [Flags] 2 [Guid] 1535912653 [EditorId] 1535912653 [Version] 1048832 [Id] OSXEditor(0,oscars-macbook-air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [7939215360] Host "[IP] 192.168.0.217 [Port] 0 [Flags] 2 [Guid] 3262139309 [EditorId] 3262139309 [Version] 1048832 [Id] OSXEditor(0,oscars-Air.gateway) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [7939215360] Host "[IP] 10.105.62.35 [Port] 0 [Flags] 2 [Guid] 1535912653 [EditorId] 1535912653 [Version] 1048832 [Id] OSXEditor(0,oscars-macbook-air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [7939215360] Host "[IP] 192.168.0.217 [Port] 0 [Flags] 2 [Guid] 3262139309 [EditorId] 3262139309 [Version] 1048832 [Id] OSXEditor(0,oscars-Air.gateway) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
-Refreshing native plugins compatible for Editor in 2.73 ms, found 1 plugins.
-Preloading 1 native plugins for Editor in 7.94 ms.
+Refreshing native plugins compatible for Editor in 3.97 ms, found 1 plugins.
+Preloading 1 native plugins for Editor in 7.04 ms.
 Initialize engine version: 2022.3.20f1 (61c2feb0970d)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.20f1/Unity/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/oscarlobban/GitHub/Symbolore/Bowling Ball Scene/Assets
@@ -76,44 +76,44 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.20f1/Unity/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.20f1/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2022.3.20f1/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56569
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56489
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.20f1/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.003587 seconds.
-- Loaded All Assemblies, in  0.353 seconds
+Registered in 0.004336 seconds.
+- Loaded All Assemblies, in  0.424 seconds
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.240 seconds
-Domain Reload Profiling: 593ms
-	BeginReloadAssembly (123ms)
+- Finished resetting the current domain, in  0.355 seconds
+Domain Reload Profiling: 779ms
+	BeginReloadAssembly (142ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (48ms)
-	LoadAllAssembliesAndSetupDomain (136ms)
-		LoadAssemblies (123ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (56ms)
+	LoadAllAssembliesAndSetupDomain (169ms)
+		LoadAssemblies (142ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (133ms)
-			TypeCache.Refresh (132ms)
-				TypeCache.ScanAssembly (118ms)
+		AnalyzeDomain (167ms)
+			TypeCache.Refresh (165ms)
+				TypeCache.ScanAssembly (148ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (240ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (355ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (183ms)
+		SetupLoadedEditorAssemblies (275ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (10ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (128ms)
-			ProcessInitializeOnLoadMethodAttributes (40ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (193ms)
+			ProcessInitializeOnLoadMethodAttributes (59ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -121,8 +121,8 @@ Domain Reload Profiling: 593ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.224 seconds
-Refreshing native plugins compatible for Editor in 1.02 ms, found 1 plugins.
+- Loaded All Assemblies, in  0.266 seconds
+Refreshing native plugins compatible for Editor in 1.68 ms, found 1 plugins.
 Native extension for OSXStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
@@ -135,48 +135,48 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.569 seconds
-Domain Reload Profiling: 794ms
-	BeginReloadAssembly (88ms)
+- Finished resetting the current domain, in  0.560 seconds
+Domain Reload Profiling: 827ms
+	BeginReloadAssembly (106ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (14ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (15ms)
-	LoadAllAssembliesAndSetupDomain (80ms)
-		LoadAssemblies (79ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (96ms)
+		LoadAssemblies (86ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (44ms)
-			TypeCache.Refresh (33ms)
-				TypeCache.ScanAssembly (24ms)
-			ScanForSourceGeneratedMonoScriptInfo (6ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (570ms)
+		AnalyzeDomain (60ms)
+			TypeCache.Refresh (46ms)
+				TypeCache.ScanAssembly (35ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (561ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (418ms)
+		SetupLoadedEditorAssemblies (345ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (7ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (10ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (66ms)
-			ProcessInitializeOnLoadAttributes (318ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (241ms)
 			ProcessInitializeOnLoadMethodAttributes (20ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
 Launching external process: /Applications/Unity/Hub/Editor/2022.3.20f1/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.09 seconds
-Refreshing native plugins compatible for Editor in 1.16 ms, found 1 plugins.
-Preloading 1 native plugins for Editor in 0.29 ms.
+Launched and connected shader compiler UnityShaderCompiler after 0.11 seconds
+Refreshing native plugins compatible for Editor in 1.26 ms, found 1 plugins.
+Preloading 1 native plugins for Editor in 0.31 ms.
 Unloading 1418 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 21 unused Assets / (45.7 KB). Loaded Objects now: 1904.
-Memory consumption went from 97.1 MB to 97.1 MB.
-Total: 3.905750 ms (FindLiveObjects: 0.096042 ms CreateObjectMapping: 0.037208 ms MarkObjects: 3.668917 ms  DeleteObjects: 0.102875 ms)
+Unloading 21 unused Assets / (45.0 KB). Loaded Objects now: 1904.
+Memory consumption went from 97.3 MB to 97.3 MB.
+Total: 4.033333 ms (FindLiveObjects: 0.094125 ms CreateObjectMapping: 0.036250 ms MarkObjects: 3.804375 ms  DeleteObjects: 0.097541 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
@@ -193,161 +193,627 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 74816.200668 seconds.
-  path: Assets/CITY PARK ASSETS/BrokenVector
-  artifactKey: Guid(e225eed575fe54bd39fe4a09ca4539b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CITY PARK ASSETS/BrokenVector using Guid(e225eed575fe54bd39fe4a09ca4539b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecce9b0dc25f0a6e7286851446871683') in 0.001560 seconds
+  Time since last request: 76703.118443 seconds.
+  path: Assets/CITY PARK ASSETS/BrokenVector/LowPolyTreePack/Materials/Dry.mat
+  artifactKey: Guid(894583d895d58b444b8e8b67169bd2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CITY PARK ASSETS/BrokenVector/LowPolyTreePack/Materials/Dry.mat using Guid(894583d895d58b444b8e8b67169bd2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '350541b5b4056b61ae9bff279247742e') in 0.125094 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/CITY PARK ASSETS/BrokenVector/LowPolyTreePack/Materials
+  artifactKey: Guid(7f7af0acf4987b0428e8f0c12ace64fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CITY PARK ASSETS/BrokenVector/LowPolyTreePack/Materials using Guid(7f7af0acf4987b0428e8f0c12ace64fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1624b31cb486fb932eab5bd135091a6d') in 0.000529 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000137 seconds.
-  path: Assets/CITY PARK ASSETS/BrokenVector/LowPolyTreePack/Models/Tree Type0 02.dae
-  artifactKey: Guid(6b63ca9c7bc00f24b81b6cb48095b9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CITY PARK ASSETS/BrokenVector/LowPolyTreePack/Models/Tree Type0 02.dae using Guid(6b63ca9c7bc00f24b81b6cb48095b9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51d70d650f032138f6fc83273cc3fe0b') in 0.131141 seconds
+  Time since last request: 0.000237 seconds.
+  path: Assets/CITY PARK ASSETS/BrokenVector/LowPolyTreePack/Materials/Normal.mat
+  artifactKey: Guid(fe3e3b8ebc1a32647b48b7ea88f534a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CITY PARK ASSETS/BrokenVector/LowPolyTreePack/Materials/Normal.mat using Guid(fe3e3b8ebc1a32647b48b7ea88f534a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '436f4668d4f05e6a6bb4389fbe8ccd9b') in 0.009498 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x172ee3000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.259 seconds
+Refreshing native plugins compatible for Editor in 1.31 ms, found 1 plugins.
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.425 seconds
+Domain Reload Profiling: 685ms
+	BeginReloadAssembly (134ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (59ms)
+		LoadAssemblies (109ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (27ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (13ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (425ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (223ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (36ms)
+			ProcessInitializeOnLoadAttributes (159ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 1.00 ms, found 1 plugins.
+Preloading 1 native plugins for Editor in 0.42 ms.
+Unloading 1404 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5 unused Assets / (24.4 KB). Loaded Objects now: 1947.
+Memory consumption went from 104.7 MB to 104.7 MB.
+Total: 3.179417 ms (FindLiveObjects: 0.092083 ms CreateObjectMapping: 0.032083 ms MarkObjects: 3.006042 ms  DeleteObjects: 0.048208 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16fecb000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.195 seconds
+Refreshing native plugins compatible for Editor in 1.17 ms, found 1 plugins.
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.392 seconds
+Domain Reload Profiling: 588ms
+	BeginReloadAssembly (97ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (32ms)
+		LoadAssemblies (51ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (26ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (13ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (393ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (213ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (33ms)
+			ProcessInitializeOnLoadAttributes (154ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 1.18 ms, found 1 plugins.
+Preloading 1 native plugins for Editor in 0.30 ms.
+Unloading 1405 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5 unused Assets / (24.3 KB). Loaded Objects now: 1948.
+Memory consumption went from 110.4 MB to 110.4 MB.
+Total: 3.531750 ms (FindLiveObjects: 0.127083 ms CreateObjectMapping: 0.036000 ms MarkObjects: 3.332166 ms  DeleteObjects: 0.035708 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000143 seconds.
-  path: Assets/CITY PARK ASSETS/BrokenVector/LowPolyTreePack/Models/Tree Type3 02.dae
-  artifactKey: Guid(68218c07874adef4fbe8100958fd9117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CITY PARK ASSETS/BrokenVector/LowPolyTreePack/Models/Tree Type3 02.dae using Guid(68218c07874adef4fbe8100958fd9117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49fecfc389f91d7b54ba43a173191ef4') in 0.015303 seconds
+  Time since last request: 1110.343038 seconds.
+  path: Assets/CITY PARK ASSETS/DigitalArtistJZ/Models/Box.fbx
+  artifactKey: Guid(8841ce54b4d622441869be572c79487a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CITY PARK ASSETS/DigitalArtistJZ/Models/Box.fbx using Guid(8841ce54b4d622441869be572c79487a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bec61dea75dd281d038e759e61b00d5') in 0.098907 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
+Number of asset objects unloaded after import = 14
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/CITY PARK ASSETS/BrokenVector/LowPolyTreePack/Models/Tree Type5 02.dae
-  artifactKey: Guid(eec2a0a67f1c8b243a386ec359eda522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CITY PARK ASSETS/BrokenVector/LowPolyTreePack/Models/Tree Type5 02.dae using Guid(eec2a0a67f1c8b243a386ec359eda522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08246910255ad56fda3a8fb91bcc0291') in 0.009883 seconds
+  Time since last request: 0.000050 seconds.
+  path: Assets/CITY PARK ASSETS/DigitalArtistJZ/Models/WaterPump.fbx
+  artifactKey: Guid(783f49067b69e8a4b98c8def96da90a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CITY PARK ASSETS/DigitalArtistJZ/Models/WaterPump.fbx using Guid(783f49067b69e8a4b98c8def96da90a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b01afc5ff80074958f12404349381c56') in 0.023967 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
+Number of asset objects unloaded after import = 14
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000149 seconds.
-  path: Assets/CITY PARK ASSETS/BrokenVector/LowPolyTreePack/Models/Tree Type1 02.dae
-  artifactKey: Guid(e063977d54ec61849aacc1b8e9eafc6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CITY PARK ASSETS/BrokenVector/LowPolyTreePack/Models/Tree Type1 02.dae using Guid(e063977d54ec61849aacc1b8e9eafc6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85a16139393ef32d6fb790e7670b362c') in 0.011437 seconds
+  Time since last request: 0.000056 seconds.
+  path: Assets/CITY PARK ASSETS/DigitalArtistJZ/Models/GhostOrange.fbx
+  artifactKey: Guid(efed25b9befccbc459a3a1769df760ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CITY PARK ASSETS/DigitalArtistJZ/Models/GhostOrange.fbx using Guid(efed25b9befccbc459a3a1769df760ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11173b2e90948d5e8343d54a694b21f8') in 0.022594 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
+Number of asset objects unloaded after import = 78
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000119 seconds.
-  path: Assets/CITY PARK ASSETS/BrokenVector/LowPolyTreePack/Models/Tree Type0 01.dae
-  artifactKey: Guid(d2821924b86cff5439f12b0289585dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CITY PARK ASSETS/BrokenVector/LowPolyTreePack/Models/Tree Type0 01.dae using Guid(d2821924b86cff5439f12b0289585dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eee2d7caa486464aed1f4177f0d37831') in 0.010086 seconds
+  Time since last request: 0.000055 seconds.
+  path: Assets/CITY PARK ASSETS/DigitalArtistJZ/Models/Present4.fbx
+  artifactKey: Guid(8c774e8fde295cb488a8370a05d5afbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CITY PARK ASSETS/DigitalArtistJZ/Models/Present4.fbx using Guid(8c774e8fde295cb488a8370a05d5afbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebade1313e262022eda265cb5eeba632') in 0.009898 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
+Number of asset objects unloaded after import = 7
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/CITY PARK ASSETS/BrokenVector/LowPolyTreePack/Models/Tree Type5 01.dae
-  artifactKey: Guid(dfc73e1f73ca4d64da934fb2dcb38e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CITY PARK ASSETS/BrokenVector/LowPolyTreePack/Models/Tree Type5 01.dae using Guid(dfc73e1f73ca4d64da934fb2dcb38e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe7c8e751d6913e1f15dee1063be06a8') in 0.010346 seconds
+  Time since last request: 0.000091 seconds.
+  path: Assets/CITY PARK ASSETS/DigitalArtistJZ/Models/Flower1_LOD.fbx
+  artifactKey: Guid(03fa8ca66a1d0b645bb43be08e497568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CITY PARK ASSETS/DigitalArtistJZ/Models/Flower1_LOD.fbx using Guid(03fa8ca66a1d0b645bb43be08e497568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9314b9c086b00039a7c2fce0354efcc') in 0.045872 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
+Number of asset objects unloaded after import = 30
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000133 seconds.
-  path: Assets/CITY PARK ASSETS/BrokenVector/LowPolyTreePack/Models/Tree Type5 04.dae
-  artifactKey: Guid(2ab8bbefc4a0d4948b52fdcbd7c3489b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CITY PARK ASSETS/BrokenVector/LowPolyTreePack/Models/Tree Type5 04.dae using Guid(2ab8bbefc4a0d4948b52fdcbd7c3489b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f70b63912487748bb63adede7df568e') in 0.010192 seconds
+  Time since last request: 0.000114 seconds.
+  path: Assets/CITY PARK ASSETS/DigitalArtistJZ/Models/Lantern.fbx
+  artifactKey: Guid(05f11c4f60059014caa43d54208b9a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CITY PARK ASSETS/DigitalArtistJZ/Models/Lantern.fbx using Guid(05f11c4f60059014caa43d54208b9a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66ff2f9b47af0d9fe72d63183e3ff2e8') in 0.024584 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
+Number of asset objects unloaded after import = 14
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/CITY PARK ASSETS/BrokenVector/LowPolyTreePack/Models/Tree Type6 02.dae
-  artifactKey: Guid(a502c85dd672f8d428b76fd14220881f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CITY PARK ASSETS/BrokenVector/LowPolyTreePack/Models/Tree Type6 02.dae using Guid(a502c85dd672f8d428b76fd14220881f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c80d662bfa7d5e010de6e4c0564b758') in 0.012873 seconds
+  Time since last request: 0.000064 seconds.
+  path: Assets/CITY PARK ASSETS/DigitalArtistJZ/Models/TropicalRock1_LOD.fbx
+  artifactKey: Guid(87ffff62a3586bb47a69f4c0b6c0e32a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CITY PARK ASSETS/DigitalArtistJZ/Models/TropicalRock1_LOD.fbx using Guid(87ffff62a3586bb47a69f4c0b6c0e32a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c758e6076890b9f6b7576235d8e2a762') in 0.060257 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
+Number of asset objects unloaded after import = 30
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000143 seconds.
-  path: Assets/CITY PARK ASSETS/BrokenVector/LowPolyTreePack/Models/Tree Type1 04.dae
-  artifactKey: Guid(0ddb82da3485fac4dbfe187acb70a610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CITY PARK ASSETS/BrokenVector/LowPolyTreePack/Models/Tree Type1 04.dae using Guid(0ddb82da3485fac4dbfe187acb70a610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '084434e6607ffe30361353ad3a48916e') in 0.012623 seconds
+  Time since last request: 0.000121 seconds.
+  path: Assets/CITY PARK ASSETS/DigitalArtistJZ/Models/Present2.fbx
+  artifactKey: Guid(bbf98ad1bb367ba4e91d368044e2311b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CITY PARK ASSETS/DigitalArtistJZ/Models/Present2.fbx using Guid(bbf98ad1bb367ba4e91d368044e2311b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c70e9a3305d843f11b66382fb7ca40e5') in 0.008245 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
+Number of asset objects unloaded after import = 7
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000315 seconds.
-  path: Assets/CITY PARK ASSETS/BrokenVector/LowPolyTreePack/Models/Tree Type3 05.dae
-  artifactKey: Guid(0658909382c77d041b643ae92bd27b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CITY PARK ASSETS/BrokenVector/LowPolyTreePack/Models/Tree Type3 05.dae using Guid(0658909382c77d041b643ae92bd27b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc30d1376b125a40f8381edc4dd03770') in 0.011693 seconds
+  Time since last request: 0.000085 seconds.
+  path: Assets/CITY PARK ASSETS/DigitalArtistJZ/Models/TropicalRock3_LOD.fbx
+  artifactKey: Guid(e28fa67e65e71eb46934c07bd713a533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CITY PARK ASSETS/DigitalArtistJZ/Models/TropicalRock3_LOD.fbx using Guid(e28fa67e65e71eb46934c07bd713a533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dd9f6778e3df076cb71ce1a9819fdbd') in 0.051449 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
+Number of asset objects unloaded after import = 30
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/CITY PARK ASSETS/BrokenVector/LowPolyTreePack/Models/Tree Type0 03.dae
-  artifactKey: Guid(5648c7aa655120f44aab862e4a038f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CITY PARK ASSETS/BrokenVector/LowPolyTreePack/Models/Tree Type0 03.dae using Guid(5648c7aa655120f44aab862e4a038f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ade26f26f6d49c3b3f94118893494b0b') in 0.014073 seconds
+  Time since last request: 0.000076 seconds.
+  path: Assets/CITY PARK ASSETS/DigitalArtistJZ/Models/Present3.fbx
+  artifactKey: Guid(e48e40d9c5a49584f90a19e1ad279b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CITY PARK ASSETS/DigitalArtistJZ/Models/Present3.fbx using Guid(e48e40d9c5a49584f90a19e1ad279b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5915fa74352bd39c8064b92883b09cfb') in 0.010294 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/CITY PARK ASSETS/DigitalArtistJZ/Models/Cactus3_LOD.fbx
+  artifactKey: Guid(a5e7044ce7d92ef4dbcfd161451f069a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CITY PARK ASSETS/DigitalArtistJZ/Models/Cactus3_LOD.fbx using Guid(a5e7044ce7d92ef4dbcfd161451f069a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '621982f7a31127514744604db3acd65f') in 0.072911 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000390 seconds.
+  path: Assets/CITY PARK ASSETS/DigitalArtistJZ/Models/Present1.fbx
+  artifactKey: Guid(f0f66b10f978d4d46a25e387f09eaf7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CITY PARK ASSETS/DigitalArtistJZ/Models/Present1.fbx using Guid(f0f66b10f978d4d46a25e387f09eaf7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'effa4a31324a27f428754a535d5083ae') in 0.015028 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/CITY PARK ASSETS/DigitalArtistJZ/Models/GraveStone1.fbx
+  artifactKey: Guid(d994b0b1e54753a4ba83da61a4097dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CITY PARK ASSETS/DigitalArtistJZ/Models/GraveStone1.fbx using Guid(d994b0b1e54753a4ba83da61a4097dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59dd9594251602bdab03d2b6a15e693f') in 0.015257 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/CITY PARK ASSETS/DigitalArtistJZ/Models/ToxicBarrel.fbx
+  artifactKey: Guid(19411868a095dc7478a40220b22d77d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CITY PARK ASSETS/DigitalArtistJZ/Models/ToxicBarrel.fbx using Guid(19411868a095dc7478a40220b22d77d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39c6bb38dee0316e1a818ab29f858b62') in 0.017216 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 165.740699 seconds.
+  path: Assets/CITY PARK ASSETS/DigitalArtistJZ/Materials/Base.mat
+  artifactKey: Guid(fc608a03a11426944af7f8591b8f6da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CITY PARK ASSETS/DigitalArtistJZ/Materials/Base.mat using Guid(fc608a03a11426944af7f8591b8f6da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ad3162e55054009073e18ba2cac4189') in 0.033710 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/CITY PARK ASSETS/DigitalArtistJZ/Materials/Flower.mat
+  artifactKey: Guid(9814967b429ea7344b997e636cbe626d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CITY PARK ASSETS/DigitalArtistJZ/Materials/Flower.mat using Guid(9814967b429ea7344b997e636cbe626d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f9ef261211fa462e4305c837933a6b8') in 0.014417 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/CITY PARK ASSETS/DigitalArtistJZ/Materials/Ghost.mat
+  artifactKey: Guid(b09285a4297048b4eadd697ef26dfdbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CITY PARK ASSETS/DigitalArtistJZ/Materials/Ghost.mat using Guid(b09285a4297048b4eadd697ef26dfdbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63eeb754e77d91edcde724a21ba934fd') in 0.015374 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/CITY PARK ASSETS/DigitalArtistJZ/Materials/Chest.mat
+  artifactKey: Guid(9ddd0ac7625d35047a8ee1d9c62fc068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CITY PARK ASSETS/DigitalArtistJZ/Materials/Chest.mat using Guid(9ddd0ac7625d35047a8ee1d9c62fc068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1129c29b5229a2cb17b1d28cd4a8a7cf') in 0.021772 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/CITY PARK ASSETS/DigitalArtistJZ/Materials/WaterPump.mat
+  artifactKey: Guid(77c0afe818adfa1448191aa9aaea2f34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CITY PARK ASSETS/DigitalArtistJZ/Materials/WaterPump.mat using Guid(77c0afe818adfa1448191aa9aaea2f34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '744967fe4f56fb0bccb8ed207e4ce4a1') in 0.017190 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/CITY PARK ASSETS/DigitalArtistJZ/Materials/Lantern.mat
+  artifactKey: Guid(97508ca4b7c78614a97065c02bbc8323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CITY PARK ASSETS/DigitalArtistJZ/Materials/Lantern.mat using Guid(97508ca4b7c78614a97065c02bbc8323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df487a184f03f9a9ce8ac08497eb3261') in 0.019315 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/CITY PARK ASSETS/DigitalArtistJZ/Materials/Presents 1.mat
+  artifactKey: Guid(b9070696e2bd8214081d201424b8d50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CITY PARK ASSETS/DigitalArtistJZ/Materials/Presents 1.mat using Guid(b9070696e2bd8214081d201424b8d50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d33428a8198b6dc925333e3f4396c20') in 0.017799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/CITY PARK ASSETS/DigitalArtistJZ/Materials/Box.mat
+  artifactKey: Guid(28fdd8dc08f68da4b8de255909857112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CITY PARK ASSETS/DigitalArtistJZ/Materials/Box.mat using Guid(28fdd8dc08f68da4b8de255909857112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ff97999f8053a9cf2ca3750e3c0bc00') in 0.014777 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/CITY PARK ASSETS/DigitalArtistJZ/Materials/Fence.mat
+  artifactKey: Guid(acfc61f0d7804244cb742472502cad01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CITY PARK ASSETS/DigitalArtistJZ/Materials/Fence.mat using Guid(acfc61f0d7804244cb742472502cad01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e64c690c6cb5fa92090988596a1424c0') in 0.014089 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 66.829770 seconds.
+  path: Assets/CITY PARK ASSETS/SimplePoly City - Low Poly Assets/Materials/Building_Auto Service.mat
+  artifactKey: Guid(38ce9279a60381844a3f6a85bac88a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CITY PARK ASSETS/SimplePoly City - Low Poly Assets/Materials/Building_Auto Service.mat using Guid(38ce9279a60381844a3f6a85bac88a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b284503150035a73685fd037c757a1f9') in 0.015851 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/CITY PARK ASSETS/SimplePoly City - Low Poly Assets/Materials/Building_House_03_color03.mat
+  artifactKey: Guid(0ee6e621355b5ac4da1102c54fbb63d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CITY PARK ASSETS/SimplePoly City - Low Poly Assets/Materials/Building_House_03_color03.mat using Guid(0ee6e621355b5ac4da1102c54fbb63d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9e39b6dd976489660f1f14dbf3a9794') in 0.008027 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/CITY PARK ASSETS/SimplePoly City - Low Poly Assets/Materials/Building_Drug Store.mat
+  artifactKey: Guid(f9332e9be9cda3a4e8544e41a0366b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CITY PARK ASSETS/SimplePoly City - Low Poly Assets/Materials/Building_Drug Store.mat using Guid(f9332e9be9cda3a4e8544e41a0366b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f4051603605f9f95d7305d023089896') in 0.008051 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 1898.297546 seconds.
+  path: Assets/CITY PARK ASSETS/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Birch_Tree_06.prefab
+  artifactKey: Guid(a2bd798ea40c7e341aa61ad124d95342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CITY PARK ASSETS/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Birch_Tree_06.prefab using Guid(a2bd798ea40c7e341aa61ad124d95342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93286d6821ee8794f42f6d6e5855c5c8') in 0.024509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/CITY PARK ASSETS/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Sunflower_04.prefab
+  artifactKey: Guid(18bb023d75a113f4cb8d1452371f5c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CITY PARK ASSETS/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Sunflower_04.prefab using Guid(18bb023d75a113f4cb8d1452371f5c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10cd5115d3901d97ef164309fd0f93c9') in 0.005058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/CITY PARK ASSETS/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Mushroom_Fantasy_Purple_05.prefab
+  artifactKey: Guid(d354c41a99993964baca0254487708d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CITY PARK ASSETS/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Mushroom_Fantasy_Purple_05.prefab using Guid(d354c41a99993964baca0254487708d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24855e17a6074581b7258af03685f53c') in 0.006341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/CITY PARK ASSETS/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Grass_15.prefab
+  artifactKey: Guid(b8217b9c1183a5144b666d1dd63980c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CITY PARK ASSETS/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Grass_15.prefab using Guid(b8217b9c1183a5144b666d1dd63980c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94669c4fddad8e6fd1df76b7a57d4fd4') in 0.008852 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/CITY PARK ASSETS/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Rock_Moss_Grown_09.prefab
+  artifactKey: Guid(24457fdf8e66c3c49b7599931e0fdcb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CITY PARK ASSETS/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Rock_Moss_Grown_09.prefab using Guid(24457fdf8e66c3c49b7599931e0fdcb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f49a5f9ae7fce29087929a2ff74df551') in 0.006732 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/CITY PARK ASSETS/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Rock_Moss_Grown_11.prefab
+  artifactKey: Guid(a524090786e7ba545bd5ce3d24c9a3fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CITY PARK ASSETS/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Rock_Moss_Grown_11.prefab using Guid(a524090786e7ba545bd5ce3d24c9a3fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddfb9a401c156bcd80b33e2f2ac33c80') in 0.006624 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/CITY PARK ASSETS/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Mushroom_Fantasy_Orange_10.prefab
+  artifactKey: Guid(eae42a57b046b1a42a79ae6319bccca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CITY PARK ASSETS/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Mushroom_Fantasy_Orange_10.prefab using Guid(eae42a57b046b1a42a79ae6319bccca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39b15fae4a081cc125aee6b1a8f8d2e9') in 0.006253 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/CITY PARK ASSETS/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Meadow_08.prefab
+  artifactKey: Guid(7baba197ce36c92439b423eabaad3737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CITY PARK ASSETS/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Meadow_08.prefab using Guid(7baba197ce36c92439b423eabaad3737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd49b2558cf237cfcd4a931d544e7fdf') in 0.005947 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/CITY PARK ASSETS/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Hyacinth_04.prefab
+  artifactKey: Guid(194e9111af0c33840a49d573f2b26952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CITY PARK ASSETS/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Hyacinth_04.prefab using Guid(194e9111af0c33840a49d573f2b26952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '521cf0b9c6a2b5c08491c2296f5d6b01') in 0.005972 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/CITY PARK ASSETS/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Rock_Pile_Forest_Moss_10.prefab
+  artifactKey: Guid(c8134dd87be4906419f13922ddc5bf4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CITY PARK ASSETS/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Rock_Pile_Forest_Moss_10.prefab using Guid(c8134dd87be4906419f13922ddc5bf4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '677477d19949c18b29dae51716cf0c04') in 0.005784 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/CITY PARK ASSETS/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Tree_10.prefab
+  artifactKey: Guid(273b8f4150121d249ac7e2fd11da7005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CITY PARK ASSETS/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Tree_10.prefab using Guid(273b8f4150121d249ac7e2fd11da7005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ea14c7442a1d60813f9288c74ba2e06') in 0.007272 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/CITY PARK ASSETS/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Grass_11.prefab
+  artifactKey: Guid(ef62619642b0df743b22dd5120c6ac4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CITY PARK ASSETS/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Grass_11.prefab using Guid(ef62619642b0df743b22dd5120c6ac4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4d01fffd87a869c9167ee6b0a3a6b30') in 0.007229 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 650.643104 seconds.
+  path: Assets/CITY PARK ASSETS/SimplePoly City - Low Poly Assets/Materials/Props_BillBoard_large.mat
+  artifactKey: Guid(f75e227920ccbc54a86b0f655ddc5b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CITY PARK ASSETS/SimplePoly City - Low Poly Assets/Materials/Props_BillBoard_large.mat using Guid(f75e227920ccbc54a86b0f655ddc5b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a78fd74ed0dff46a8efea79385015200') in 0.028280 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.553879 seconds.
+  path: Assets/CITY PARK ASSETS/SimplePoly City - Low Poly Assets/Materials/Vehicle_Ambulance.mat
+  artifactKey: Guid(fded615538aced440887a3468715a826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CITY PARK ASSETS/SimplePoly City - Low Poly Assets/Materials/Vehicle_Ambulance.mat using Guid(fded615538aced440887a3468715a826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ffaa7bb05ca9e4541a272ad1620d9a4') in 0.009602 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 336.443616 seconds.
+  path: Assets/CITY PARK ASSETS/DigitalArtistJZ/Materials/ToxicBarrel.mat
+  artifactKey: Guid(53c0be6959beed94083154d0ee9d2122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CITY PARK ASSETS/DigitalArtistJZ/Materials/ToxicBarrel.mat using Guid(53c0be6959beed94083154d0ee9d2122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27dfef9bc3a55f2adb0d7106db71548f') in 0.054337 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/CITY PARK ASSETS/DigitalArtistJZ/Materials/ToxicBarrel 1.mat
+  artifactKey: Guid(ac2512b09b660ec4cb63ae0e3e4390a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CITY PARK ASSETS/DigitalArtistJZ/Materials/ToxicBarrel 1.mat using Guid(ac2512b09b660ec4cb63ae0e3e4390a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd2377de76e7091474fb964f5e40aace') in 0.015500 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 153.142331 seconds.
+  path: Assets/Acorn Bringer Assets/Simplistic Low Poly Nature/Prefabs/SCharacter_Bird2.prefab
+  artifactKey: Guid(6d8c53370341c254eb80f72f77a48dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Acorn Bringer Assets/Simplistic Low Poly Nature/Prefabs/SCharacter_Bird2.prefab using Guid(6d8c53370341c254eb80f72f77a48dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dca5e44347120f82923d95fe2fbc238d') in 0.024576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 66
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Acorn Bringer Assets/Simplistic Low Poly Nature/Prefabs/SNature_LiliPad.prefab
+  artifactKey: Guid(c9bb692f8b5490743a59d75a7995b81c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Acorn Bringer Assets/Simplistic Low Poly Nature/Prefabs/SNature_LiliPad.prefab using Guid(c9bb692f8b5490743a59d75a7995b81c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68217e03c9d25bc5980466db8e223836') in 0.007473 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Acorn Bringer Assets/Simplistic Low Poly Nature/Prefabs/SCharacter_Butterfly.prefab
+  artifactKey: Guid(18b8af6b3106d4940a5e534dc18c0344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Acorn Bringer Assets/Simplistic Low Poly Nature/Prefabs/SCharacter_Butterfly.prefab using Guid(18b8af6b3106d4940a5e534dc18c0344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a226062915d05f357e93dac314c4247') in 0.007788 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Acorn Bringer Assets/Simplistic Low Poly Nature/Prefabs/SCharacter_Fish.prefab
+  artifactKey: Guid(925bc3fd925fd0c4c80d7e83b67ba239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Acorn Bringer Assets/Simplistic Low Poly Nature/Prefabs/SCharacter_Fish.prefab using Guid(925bc3fd925fd0c4c80d7e83b67ba239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3832b2c0fb92e1616745d18a9693e8fc') in 0.004427 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 56
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Acorn Bringer Assets/Simplistic Low Poly Nature/Prefabs/SNature_MossRocks2.prefab
+  artifactKey: Guid(68e8c0f1e23f3f74781154a91fcce3aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Acorn Bringer Assets/Simplistic Low Poly Nature/Prefabs/SNature_MossRocks2.prefab using Guid(68e8c0f1e23f3f74781154a91fcce3aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3417bc7606ede564c9bc3e6e49d934d0') in 0.004330 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Acorn Bringer Assets/Simplistic Low Poly Nature/Prefabs/SNature_Feather.prefab
+  artifactKey: Guid(4df1317252ba49e428648a61c57ab69b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Acorn Bringer Assets/Simplistic Low Poly Nature/Prefabs/SNature_Feather.prefab using Guid(4df1317252ba49e428648a61c57ab69b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdcbe7904dfe144cddf6ef83fc31fd93') in 0.006772 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Acorn Bringer Assets/Simplistic Low Poly Nature/Prefabs/SNature_SmallRocks.prefab
+  artifactKey: Guid(8bf68561aec61914b8418e72b44a57dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Acorn Bringer Assets/Simplistic Low Poly Nature/Prefabs/SNature_SmallRocks.prefab using Guid(8bf68561aec61914b8418e72b44a57dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d643a160310a1be3c8fd989fd3591d9') in 0.006312 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Acorn Bringer Assets/Simplistic Low Poly Nature/Prefabs/SNature_Leaf.prefab
+  artifactKey: Guid(8ae7718c33e89b042b204b36902c7745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Acorn Bringer Assets/Simplistic Low Poly Nature/Prefabs/SNature_Leaf.prefab using Guid(8ae7718c33e89b042b204b36902c7745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32f6588b4d0e2fd23845569d87ef85ab') in 0.007246 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Acorn Bringer Assets/Simplistic Low Poly Nature/Prefabs/SNature_MossRocks1.prefab
+  artifactKey: Guid(55ffe20335c698d4fbf469301e953712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Acorn Bringer Assets/Simplistic Low Poly Nature/Prefabs/SNature_MossRocks1.prefab using Guid(55ffe20335c698d4fbf469301e953712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26e8a42f0806e76bdb6c0b3bc85bdb13') in 0.006290 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Acorn Bringer Assets/Simplistic Low Poly Nature/Prefabs/SNature_Tree.prefab
+  artifactKey: Guid(fac5acd5ad489214781636c608a0c628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Acorn Bringer Assets/Simplistic Low Poly Nature/Prefabs/SNature_Tree.prefab using Guid(fac5acd5ad489214781636c608a0c628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9dfabf6fec1bc54f2f8bbf7d06dae4e') in 0.006894 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
 ========================================================================
 Received Import Request.
   Time since last request: 0.000161 seconds.
-  path: Assets/CITY PARK ASSETS/BrokenVector/LowPolyTreePack/Models/Tree Type4 01.dae
-  artifactKey: Guid(9ddce011fb3cf3341b8c252c9b00cb4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CITY PARK ASSETS/BrokenVector/LowPolyTreePack/Models/Tree Type4 01.dae using Guid(9ddce011fb3cf3341b8c252c9b00cb4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3be4de17a02a685418772c0b8863b5b') in 0.014875 seconds
+  path: Assets/Acorn Bringer Assets/Simplistic Low Poly Nature/Prefabs/SNature_WaterSkipper.prefab
+  artifactKey: Guid(02defc480a8cb6149bac21f1e89e943d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Acorn Bringer Assets/Simplistic Low Poly Nature/Prefabs/SNature_WaterSkipper.prefab using Guid(02defc480a8cb6149bac21f1e89e943d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3d3dee26e7371c847c7bf787d717a46') in 0.003847 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
+Number of asset objects unloaded after import = 9
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000145 seconds.
-  path: Assets/CITY PARK ASSETS/BrokenVector/LowPolyTreePack/Models/Tree Type2 02.dae
-  artifactKey: Guid(2ea73da7fe37e7b42bb77b26e97df11f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CITY PARK ASSETS/BrokenVector/LowPolyTreePack/Models/Tree Type2 02.dae using Guid(2ea73da7fe37e7b42bb77b26e97df11f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de86b8b77a5993c78dd72d1d7718c68f') in 0.012244 seconds
+  Time since last request: 0.000094 seconds.
+  path: Assets/Acorn Bringer Assets/Simplistic Low Poly Nature/Prefabs/SNature_Stick.prefab
+  artifactKey: Guid(be267edc7fa1b284ca7ab194ee3d831e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Acorn Bringer Assets/Simplistic Low Poly Nature/Prefabs/SNature_Stick.prefab using Guid(be267edc7fa1b284ca7ab194ee3d831e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45ae799cc9d0a9965152bd49db4e60b9') in 0.006019 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
+Number of asset objects unloaded after import = 9
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000138 seconds.
-  path: Assets/CITY PARK ASSETS/BrokenVector/LowPolyTreePack/Models/Tree Type4 02.dae
-  artifactKey: Guid(20daf9d902df0d749bd16ac37a353854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CITY PARK ASSETS/BrokenVector/LowPolyTreePack/Models/Tree Type4 02.dae using Guid(20daf9d902df0d749bd16ac37a353854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76b3779fa0ef0472d45ec89d4f4d88b6') in 0.012625 seconds
+  Time since last request: 0.000136 seconds.
+  path: Assets/Acorn Bringer Assets/Simplistic Low Poly Nature/Prefabs/SNature_Sapling.prefab
+  artifactKey: Guid(6b14d45548d47914088fc51496a20a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Acorn Bringer Assets/Simplistic Low Poly Nature/Prefabs/SNature_Sapling.prefab using Guid(6b14d45548d47914088fc51496a20a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f75226d258a363b11f0ac2448147ad06') in 0.006418 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
+Number of asset objects unloaded after import = 9
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/CITY PARK ASSETS/BrokenVector/LowPolyTreePack/Models/Tree Type4 03.dae
-  artifactKey: Guid(10155e34e1176c3489486fbf0cef1736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CITY PARK ASSETS/BrokenVector/LowPolyTreePack/Models/Tree Type4 03.dae using Guid(10155e34e1176c3489486fbf0cef1736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4550a9a11d749acf904371a25f7d6a1') in 0.017998 seconds
+  Time since last request: 1376.053586 seconds.
+  path: Assets/CITY PARK ASSETS/BrokenVector/LowPolyTreePack/Materials/Dry.mat
+  artifactKey: Guid(894583d895d58b444b8e8b67169bd2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CITY PARK ASSETS/BrokenVector/LowPolyTreePack/Materials/Dry.mat using Guid(894583d895d58b444b8e8b67169bd2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cba9c2d3c934156791725ae8b5cf420') in 0.028416 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
+Number of asset objects unloaded after import = 4
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001673 seconds.
-  path: Assets/CITY PARK ASSETS/BrokenVector/LowPolyTreePack/Models/Tree Type1 01.dae
-  artifactKey: Guid(cb132eeaea305bc478721cc9b5cb57f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CITY PARK ASSETS/BrokenVector/LowPolyTreePack/Models/Tree Type1 01.dae using Guid(cb132eeaea305bc478721cc9b5cb57f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f104d6bea613dcd69c6e37e63eb3195a') in 0.020369 seconds
+  Time since last request: 0.000042 seconds.
+  path: Assets/CITY PARK ASSETS/BrokenVector/LowPolyTreePack/Materials/Normal.mat
+  artifactKey: Guid(fe3e3b8ebc1a32647b48b7ea88f534a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CITY PARK ASSETS/BrokenVector/LowPolyTreePack/Materials/Normal.mat using Guid(fe3e3b8ebc1a32647b48b7ea88f534a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b8c1b5c8e6b61df6d42be92a8814b80') in 0.005686 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/CITY PARK ASSETS/BrokenVector/LowPolyTreePack/Models/Tree Type2 04.dae
-  artifactKey: Guid(49a13064a6f46f1438de87926fc5fc42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CITY PARK ASSETS/BrokenVector/LowPolyTreePack/Models/Tree Type2 04.dae using Guid(49a13064a6f46f1438de87926fc5fc42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b2e14d0c7b66bde781d3edf2c5aca78') in 0.017466 seconds
+  Time since last request: 199.281697 seconds.
+  path: Assets/CITY PARK ASSETS/SimplePoly City - Low Poly Assets/Materials/Building_Stadium.mat
+  artifactKey: Guid(748bc3a1eddacab499ba4248377c18a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CITY PARK ASSETS/SimplePoly City - Low Poly Assets/Materials/Building_Stadium.mat using Guid(748bc3a1eddacab499ba4248377c18a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '669d2f18fb9cc2338f5638a1f261d8b7') in 0.020805 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.664729 seconds.
-  path: Assets/CITY PARK ASSETS/BrokenVector/LowPolyTreePack/Models/Tree Type7 02.dae
-  artifactKey: Guid(819c10f136958e549bf2eb4702b8f111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CITY PARK ASSETS/BrokenVector/LowPolyTreePack/Models/Tree Type7 02.dae using Guid(819c10f136958e549bf2eb4702b8f111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c66d090eb688bcfe67fd515408b66d1c') in 0.010335 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000137 seconds.
-  path: Assets/CITY PARK ASSETS/BrokenVector/LowPolyTreePack/Models/Tree Type7 04.dae
-  artifactKey: Guid(f59e9c62851aaed46bb0599645bdfdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CITY PARK ASSETS/BrokenVector/LowPolyTreePack/Models/Tree Type7 04.dae using Guid(f59e9c62851aaed46bb0599645bdfdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f375dd2fed0b098aa2cebec74666cf68') in 0.015395 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
+Number of asset objects unloaded after import = 4
